@@ -4,7 +4,7 @@ import Group_2 from "../asset/Images/Group_2.png";
 import Group_3 from "../asset/Images/Group_3.png";
 import Group_4 from "../asset/Images/Group_4.png";
 import Group_5 from "../asset/Images/Group_5.png";
-import Services from "./Services/Services";
+import Services from "./Services";
 
 const Footer = () => {
   const handleClick = () => {

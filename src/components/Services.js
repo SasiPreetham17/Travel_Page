@@ -1,9 +1,7 @@
-import "./Services.css";
-import booking from "../../asset/Images/booking.png";
-import destination from "../../asset/Images/destination.png";
-import cloudy from "../../asset/Images/cloudy.png";
-import TravelPoint from "../Travel Point/TravelPoint";
-import Group_5 from "../../asset/Images/Group_5.png";
+// import booking from "../../asset/Images/booking.png";
+// import destination from "../../asset/Images/destination.png";
+import cloudy from "../asset/Images/cloudy.png";
+import TravelPoint from "./Travel Point/TravelPoint";
 
 const Services = () => {
   return (
@@ -15,7 +13,10 @@ const Services = () => {
         </div>
         <div class="service-boxes">
           <div className="service-box">
-            <img src={Group_5} alt="GRBITZ" />
+            <img
+              src="https://res.cloudinary.com/ddmmelgng/image/upload/v1715333384/destination_kk5ugv.png"
+              alt="Service 1"
+            />
             <h3>Best Tour Guide</h3>
             <p>
               What looked like a small patch of purple grass, above five feet.
@@ -30,10 +31,7 @@ const Services = () => {
             <p>Square, was moving across the sand in their direction.</p>
           </div>
           <div className="service-box">
-            <img
-              src="https://res.cloudinary.com/ddmmelgng/image/upload/v1715333384/cloudy_aifoqo.png"
-              alt="Service 3"
-            />
+            <img src={cloudy} alt="Service 3" />
             <h3>Weather Forecast</h3>
             <p>
               What looked like a small patch of purple grass, above five feet.
