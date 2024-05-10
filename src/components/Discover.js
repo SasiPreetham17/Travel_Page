@@ -1,7 +1,7 @@
 import "../style.css";
-import image1 from "../asset/Images/image1.jpg";
-import image2 from "../asset/Images/image2.jpg";
-import image3 from "../asset/Images/image3.jpg";
+import image1 from "../asset/Images/image1.png";
+import image2 from "../asset/Images/image2.png";
+import image3 from "../asset/Images/image3.png";
 import Footer from "./Footer";
 
 const Discover = () => {
