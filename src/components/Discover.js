@@ -1,4 +1,3 @@
-import "../style.css";
 import image1 from "../asset/Images/image1.png";
 import image2 from "../asset/Images/image2.png";
 import image3 from "../asset/Images/image3.png";
@@ -61,11 +60,7 @@ const Discover = () => {
           <div className="right-box">
             <div className="column">
               <div className="image-with-svg">
-                <img
-                  src="https://res.cloudinary.com/ddmmelgng/image/upload/v1715333385/image2_pqcm8u.png"
-                  alt="Second Image"
-                  className="image"
-                />
+                <img src={image2} alt="Second Image" className="image" />
                 <div className="svg-container">
                   <svg
                     width="126"
