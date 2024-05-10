@@ -61,7 +61,11 @@ const Discover = () => {
           <div className="right-box">
             <div className="column">
               <div className="image-with-svg">
-                <img src={image2} alt="Second Image" className="image" />
+                <img
+                  src="https://res.cloudinary.com/ddmmelgng/image/upload/v1715333385/image2_pqcm8u.png"
+                  alt="Second Image"
+                  className="image"
+                />
                 <div className="svg-container">
                   <svg
                     width="126"
@@ -161,12 +165,16 @@ const Discover = () => {
                   </svg>
                 </div>
               </div>
-              <img src={image1} alt="First Image" className="image" />
+              <img
+                src="https://res.cloudinary.com/ddmmelgng/image/upload/v1715333384/image1_jwadbr.png"
+                alt="First Image"
+                className="image"
+              />
             </div>
             <div className="column">
               <div className="image-with-svg">
                 <img
-                  src={image3}
+                  src="https://res.cloudinary.com/ddmmelgng/image/upload/v1715333385/image3_yqgdmq.png"
                   alt="Third Image"
                   className="image centered-image"
                 />
@@ -175,7 +183,7 @@ const Discover = () => {
                     width="228"
                     height="164"
                     viewBox="0 0 228 164"
-                    onClick={handleClick} // Add your click handler function here
+                    onClick={handleClick}
                     className="svg-icon"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
