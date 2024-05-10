@@ -1,5 +1,5 @@
-// import booking from "../../asset/Images/booking.png";
-// import destination from "../../asset/Images/destination.png";
+import booking from "../asset/Images/booking.png";
+import destination from "../asset/Images/destination.png";
 import cloudy from "../asset/Images/cloudy.png";
 import TravelPoint from "./Travel Point/TravelPoint";
 
@@ -13,20 +13,14 @@ const Services = () => {
         </div>
         <div class="service-boxes">
           <div className="service-box">
-            <img
-              src="https://res.cloudinary.com/ddmmelgng/image/upload/v1715333384/destination_kk5ugv.png"
-              alt="Service 1"
-            />
+            <img src={destination} alt="Service 1" />
             <h3>Best Tour Guide</h3>
             <p>
               What looked like a small patch of purple grass, above five feet.
             </p>
           </div>
           <div className="service-box">
-            <img
-              src="https://res.cloudinary.com/ddmmelgng/image/upload/v1715333384/destination_kk5ugv.png"
-              alt="Service 2"
-            />
+            <img src={booking} alt="Service 2" />
             <h3>Easy Booking</h3>
             <p>Square, was moving across the sand in their direction.</p>
           </div>
