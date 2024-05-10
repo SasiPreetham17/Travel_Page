@@ -3,6 +3,7 @@ import booking from "../../asset/Images/booking.png";
 import destination from "../../asset/Images/destination.png";
 import cloudy from "../../asset/Images/cloudy.png";
 import TravelPoint from "../Travel Point/TravelPoint";
+import Group_5 from "../../asset/Images/Group_5.png";
 
 const Services = () => {
   return (
@@ -14,10 +15,7 @@ const Services = () => {
         </div>
         <div class="service-boxes">
           <div className="service-box">
-            <img
-              src="https://res.cloudinary.com/ddmmelgng/image/upload/v1715333384/booking_f107ao.png"
-              alt="Service 1"
-            />
+            <img src={Group_5} alt="GRBITZ" />
             <h3>Best Tour Guide</h3>
             <p>
               What looked like a small patch of purple grass, above five feet.
