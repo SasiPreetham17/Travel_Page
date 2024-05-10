@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "../style.css";
 import image1 from "../asset/Images/image1.jpg";
 import image2 from "../asset/Images/image2.jpg";
